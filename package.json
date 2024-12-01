@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "tsx": "^4.19.2"
+  },
+  "dependencies": {
+    "@types/lodash": "^4.17.13",
+    "dedent": "^1.5.3",
+    "lodash": "^4.17.21"
+  }
+}
