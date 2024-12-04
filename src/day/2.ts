@@ -2,7 +2,7 @@ import Day from "../Day";
 import _ from 'lodash'; 
 
 
-export default class DayOne extends Day {
+export default class DayTwo extends Day {
     public reports_lines: string[]
     public reports: number[][]
 

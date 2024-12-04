@@ -2,7 +2,7 @@ import Day from "../Day";
 import _ from 'lodash'; 
 
 
-export default class DayOne extends Day {
+export default class DayThree extends Day {
     public regex = /mul\((\d+),(\d+)\)/g
     public regex_toggle = /(?:mul\((\d+),(\d+)\))|(?:(?:don't\(\))|(do\(\)))/g
 
