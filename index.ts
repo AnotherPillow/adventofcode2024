@@ -5,7 +5,7 @@ import Day from './src/Day';
 const day = process.argv[2] 
 const doSample = process.argv[3] != undefined
 
-const input = fs.readFileSync(`./input/${day}${doSample ? '-sample' : ''}.txt`).toString().trim()
+const input = fs.readFileSync(`./input/${day}${doSample ? '-sample' : ''}.txt`).toString().trim().replaceAll("\r", "")
 const mod = require(`./src/day/${day}`)
 
 const cl  = new (Object.hasOwn(mod, 'default') ? mod.default : mod)(input) as Day
